@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>
+crud operation
+
+</title>
+<link rel = "stylesheet" href="style.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();" autocomplete="off">
+                    <div>
+                        <label>Full name </label>
+                        <input type="text" name="fullname" id="full name">
+                    </div>
+                    <div>
+                        <label>Emp code </label>
+                        <input type="text" name="fullname" id="empcode">
+                    </div>
+                    <div>
+                        <label>Salary </label>
+                        <input type="text" name="Salary" id="salary">
+                    </div>
+                    <div>
+                        <label>City</label>
+                        <input type="text" name="city" id="city">
+                    </div>
+                    <div class="form-action-buttons">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="employeeList">
+                <thead>
+                <tr>
+                    <th>Full Name<th>
+                    <th>Emp Name<th>
+                    <th>Salary<th>
+                    <th>City<th>
+                    <th><th>
+            </td>
+            <tr>
+            </table>
+      <script src= "script.js"></script>
+</body>
+</html>
